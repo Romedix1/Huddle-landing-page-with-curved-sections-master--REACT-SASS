@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/css/main.eaddf532.css",
+    "main.js": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/js/main.12996507.js",
+    "index.html": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/index.html",
+    "static/media/bg-section-bottom-desktop-2.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-bottom-desktop-2.d3aceda96f2c01c6bbab.svg",
+    "static/media/bg-section-top-desktop-2.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-top-desktop-2.56f9794a3f455baf1f9f.svg",
+    "static/media/bg-section-top-mobile-2.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-top-mobile-2.04599e2ef6291d5d27e7.svg",
+    "static/media/bg-section-bottom-desktop-1.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-bottom-desktop-1.749314bcb6b45ecfe1ff.svg",
+    "static/media/bg-section-bottom-mobile-2.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-bottom-mobile-2.02fe54b760430a641819.svg",
+    "static/media/bg-section-top-desktop-1.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-top-desktop-1.d6d9d44b00bbb80d5065.svg",
+    "static/media/bg-section-top-mobile-1.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-top-mobile-1.2c00de768d6a3f0aff63.svg",
+    "static/media/bg-section-bottom-mobile-1.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-section-bottom-mobile-1.140d382c122e27b21f84.svg",
+    "static/media/bg-footer-top-desktop.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-footer-top-desktop.8c0b6c1db046eed123c2.svg",
+    "static/media/bg-footer-top-mobile.svg": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/media/bg-footer-top-mobile.c940267b0f9e81dab354.svg",
+    "main.eaddf532.css.map": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/css/main.eaddf532.css.map",
+    "main.12996507.js.map": "/Huddle-landing-page-with-curved-sections-master--REACT-SASS/static/js/main.12996507.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaddf532.css",
+    "static/js/main.12996507.js"
+  ]
+}

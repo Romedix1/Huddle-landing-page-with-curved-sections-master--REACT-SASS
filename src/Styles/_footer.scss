@@ -1,0 +1,296 @@
+.footer-section {
+    background-image: url(../../public/images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top 0.1rem left 0;
+    padding-top: 2rem;
+
+    @include laptop
+    {
+        background-image: url(../../public/images/bg-footer-top-desktop.svg);
+        width: 100vw;
+    }
+
+    .footer--background-color-container
+    {
+        background-color: $VeryDarkCyan;
+        padding-top: 2rem;
+        padding-bottom: 0.7rem;
+        display: grid;
+        justify-items: center;
+
+        @include tablet 
+        {
+            margin-top: 2rem;
+        }
+        
+        @include laptop 
+        {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 3.5rem;
+        }
+
+        @include desktop
+        {
+            margin-top: 5rem;
+        }
+
+        .footer--desktop-right-content
+        {
+            width: 85%;
+
+            @include laptop
+            {
+                margin-top: 3rem;
+                width: 40%;
+            }
+        }
+
+        .footer--desktop-left-content
+        {
+
+            @include laptop
+            {
+                width: 55%;
+            }
+        }
+
+        h4 
+        {
+            text-transform: uppercase;
+            color: $VeryPaleBlue;
+            font-family: $Poppins;
+            margin: 1rem 0 0 0;
+
+            @include laptop
+            {
+                width: 50%;
+            }
+        }
+
+        .footer--top-text
+        {
+            color: $VeryPaleBlue;
+            font-family: $OpenSans;
+            font-size: 0.7rem;
+
+            @include laptop
+            {
+                width: 80%;
+            }
+        }
+    
+        form
+        {
+            width: 90%;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            grid-template: auto / 1fr 1fr;
+
+            @include laptop
+            {
+                justify-items: start;
+            }
+        }
+
+        .footer--input
+        {
+            margin-top: 1rem;
+            width: calc(100% - 2rem);
+            padding: 0.35rem 1rem;
+            border-radius: 2vw;
+            font-size: 0.8rem;
+            border: none;
+            grid-column: span 2;
+
+            @include tablet 
+            {
+                padding: 0.45rem 1rem;
+            }
+
+            @include laptop
+            {
+                width: 60%;
+                grid-column: span 1;
+                width: 10rem;
+                border-radius: 1vw;
+            }
+
+            &:focus
+            {
+                border: none;
+                outline: none;
+            }
+        }
+
+        
+
+            .footer--button
+            {
+                color: #ffffff;
+                background-color: $Pink;
+                border: none;
+                font-size: 0.7rem;
+                padding: 0.55rem 2rem;
+                margin-left: 5vw;
+                border-radius: 2vw;
+                transition: .4s;
+                margin-top: 0.5rem;
+
+                @include tablet 
+                {
+                    padding: 0.55rem 3rem;
+                    margin-left:5rem;
+                }
+
+                @include laptop
+                {
+                    grid-column: 2/3;
+                    margin-left: 0;
+                    padding: 0.55rem 1.5rem;
+                    font-size: 0.75rem;
+                    border-radius: 1vw;
+                    margin-top: 1rem;
+                    margin-left: 0.5rem;
+                }
+
+                &:hover
+                {
+                    background-color: $LightPink;
+                }
+
+            }
+
+            .footer--error
+            {
+                width: 35.5vw;
+                font-size: 0.55rem;
+                color: $LightRed;
+                font-family: $Poppins;
+
+                @include tablet 
+                {
+
+                    width: 30vw;
+                    font-size: 0.65rem;
+                }
+
+                @include laptop
+                {
+                    grid-row: 2/3;
+                    width: 80%;
+                }
+            }
+
+        
+
+        
+        .footer--logo
+        {
+            margin-top: 4rem;
+            margin-right: 5rem;
+            transform: scale(0.8);
+
+            @include tablet 
+            {
+                margin-right: 10rem;
+            }
+
+            @include laptop
+            {
+            transform: scale(1);
+            margin-right: 12rem;
+            }
+
+            @include desktop
+            {
+            margin-right: 25rem;
+
+            }
+        }
+
+        .footer--bottom-text
+        {
+            width: 85%;
+            color: $VeryPaleBlue;
+            font-family: $OpenSans;
+            font-size: 0.6rem;
+            line-height: 1rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+
+            @include tablet 
+            {
+                font-size: 0.7rem;
+            }
+            
+            @include laptop
+            {
+                width: 60%;
+            }
+        }
+
+        .flex-box-bottom
+        {
+            display: flex;
+            align-items: center;
+            width: 85%;
+            
+            .footer--contact-img
+            {
+                width: 0.8rem;
+            }
+            
+            .footer--contact-text
+            {
+                margin: 0.5rem 0;
+                margin-left: 0.8rem;
+                font-size: 0.8rem;
+                color: $VeryPaleBlue;
+                font-family: $OpenSans;
+            }
+        }
+
+        .flex-box-icons
+        {
+            display: flex;
+            justify-content: flex-start;
+            height: 15vw;
+            inline-size: 6rem;
+            margin-right: 9rem;
+            margin-top: 0.7rem;
+
+            @include tablet 
+            {
+                inline-size: 9rem;
+                margin-right: 16rem;
+            }
+
+            @include laptop 
+            {
+                inline-size: 8rem;
+                margin-top: 0rem;
+            }
+
+            .footer--bottom-social-icons
+            {
+                transform: scale(0.7);
+                transition: .4s;
+
+                @include laptop
+                {
+                    transform: scale(0.65);
+                }
+                
+                &:hover
+                {
+                    fill: rgb(28, 129, 211);
+                }
+            }
+        }
+        
+        
+    }
+}

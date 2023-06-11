@@ -1,0 +1,63 @@
+// PROJECT COLORS
+// Colours which will be used in this project
+
+$Pink: hsl(322, 100%, 66%);
+$LightPink: hsl(321, 100%, 78%);
+$LightRed: hsl(0, 100%, 63%);
+$VeryDarkCyan: hsl(192, 100%, 9%);
+$VeryPaleBlue: hsl(207, 100%, 98%);
+
+// PROJECT FONTS
+// Fonts which will be used in this project
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+$Poppins: 'Poppins', sans-serif;
+
+// Weights: 700
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+$OpenSans: 'Open Sans', sans-serif;
+
+// Weights: 400, 600, 700
+
+// RESPONSIVE SIZES
+
+@mixin tablet {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1500px) {
+        @content;
+    }
+}
+
+// GLOBAL CONFIG
+*
+{
+    font-size: 6vw;
+
+    @include tablet 
+    {
+        font-size: 3.5vw;
+    }
+
+    @include laptop 
+    {
+        font-size: 2vw;
+    }
+
+    @include desktop 
+    {
+        font-size: 1.5vw;
+    }
+}

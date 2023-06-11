@@ -1,0 +1,128 @@
+.hero-section {
+    width: 80%;
+    margin-top: 1.5rem;
+    display: grid;
+    justify-items: center;
+
+    .hero--header
+    {
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: $Poppins;
+        margin-bottom: 1rem;
+
+        @include laptop
+        {
+            font-size: 1.7rem;
+        }
+    }
+
+    .hero--text
+    {
+        text-align: center;
+        font-size: 0.6rem;
+        font-family: $OpenSans;
+        font-weight: 600;
+
+        @include laptop
+        {
+            width: 75%;
+            font-size: 0.8rem;
+        }
+    }
+
+    
+    .hero--cards-container
+    {
+
+        @include laptop
+        {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+    .hero--button
+    {
+        color: #ffffff;
+        margin-top: 1.3rem;
+        background-color: $Pink;
+        border: none;
+        font-size: 0.7rem;
+        padding: 0.65rem 2rem;
+        border-radius: 10vw;
+        transition: .4s;
+        cursor: pointer;
+
+        @include laptop
+        {
+            font-size: .9rem;
+            padding: 0.85rem 2.5rem;
+        }
+
+        &:hover
+        {
+            background-color: $LightPink;
+        }
+    }
+
+    .hero--img
+    {
+        width: 13rem;
+        margin-top: 3rem;
+
+        @include tablet 
+        {
+            width: 20rem;
+        }
+
+        @include laptop
+        {
+            width: 35rem;
+        }
+    }
+
+    .hero--bottom-box
+    {
+        margin-top: 3rem;
+
+        .hero--bottom-box-image
+        {
+            width: 1.5rem;
+
+            @include tablet 
+            {
+                width: 2rem;
+            }
+        }
+
+        .hero--bottom-box-header
+        {
+            margin: 0;
+            font-size: 2.75rem;
+            font-family: $OpenSans;
+
+            @include laptop
+            {
+                font-size: 3rem;
+            }
+        }
+
+        .hero--bottom-box-text
+        {
+            margin: 0;
+            font-family: $Poppins;
+            text-align: center;
+            font-size: 0.65rem;
+            color: #9a9a9a;
+            font-weight: 400;
+
+            @include laptop
+            {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

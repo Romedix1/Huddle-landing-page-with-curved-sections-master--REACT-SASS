@@ -15,7 +15,7 @@
     @include laptop
     {
         background-image: url(../../public/images/bg-section-top-desktop-1.svg), url(../../public/images/bg-section-bottom-desktop-1.svg), url(../../public/images/bg-section-top-desktop-2.svg), url(../../public/images/bg-section-bottom-desktop-2.svg) ;
-        background-position: top 1.4rem left 0, top 19rem left 0%, top 39rem left 0%, top 55.3rem left 0%;
+        background-position: top 1.4rem left 0,top 19rem left 0,top 39rem left 0,top 55.3rem left 0;
     }
     
     @include desktop
